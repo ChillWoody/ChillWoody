@@ -147,6 +147,7 @@ body {
   transform: perspective(500px) rotateX(15deg) rotateY(15deg) translateZ(20px); /* Z-Translation für Tiefe */
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3), -8px -8px 20px rgba(0, 0, 0, 0.2);
 }
+}
 
 .tokenomics p {
   margin: 10px 0;
