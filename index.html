@@ -7,41 +7,43 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Rye&family=Smokum&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Peace+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
     /* Aktiviert smooth scrolling */
-html {
+    html {
       scroll-behavior: smooth;
     }
     
-    /* Hintergrundbild für die gesamte Seite */
-    body {
-      background-image: url('https://cdn.discordapp.com/attachments/835763760772939796/1309914074305265664/toy-story-cloud-1g0hhs34nbf7q7ma-2.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
+  /* Hintergrundbild für die gesamte Seite */
+  body {
+    background-image: url('https://cdn.discordapp.com/attachments/835763760772939796/1309914074305265664/toy-story-cloud-1g0hhs34nbf7q7ma-2.jpg?ex=6743500c&is=6741fe8c&hm=f8e64546b023281566bee8dd9b366375f0e73d16ee866fe52210ac43d8076b3e&');
+    background-size: cover; /* Bild skaliert, um die gesamte Seite zu füllen */
+    background-position: center; /* Bild bleibt zentriert */
+    background-repeat: no-repeat; /* Verhindert Wiederholungen */
+    background-attachment: fixed; /* Bild bleibt fixiert beim Scrollen */
+  }
 
-    /* Textfarben und Stile */
-    h1, h2, p, a {
-      color: black;
-    }
-    .about-section p {
-      color: black;
-    }
+  /* Optional: Kontraste für Texte erhöhen */
+  h1, h2, p, a {
+    color: black; /* Setzt Textfarbe, um sicherzustellen, dass sie lesbar ist */
+  }
+  /* Optional: Textfarbe für bessere Sichtbarkeit */
+  .about-section p {
+    color: black; /* Kann angepasst werden */
+  }
 
-    /* Hero-Text Styling */
+    /* Styling für den Text */
     .hero-text {
-      text-align: center;
-      padding: 20px;
-      font-family: 'Peace Sans', sans-serif;
+      text-align: center; /* Zentriert den Text */
+      padding: 20px; /* Abstand zwischen Navbar und Video */
+      font-family: 'Peace Sans', sans-serif; /* Gleiche Schriftart */
     }
 
     .hero-text .title {
       font-size: 2.5rem;
       font-weight: bold;
-      color: #fdda24;
-      text-shadow: 2px 2px 0 #0033a0, 4px 4px 0 #d22d27;
+      color: #fdda24; /* Toy Story Gelb */
+      text-shadow: 2px 2px 0 #0033a0, 4px 4px 0 #d22d27; /* Blaue und rote Schatten */
     }
 
     .hero-text .subtitle {
@@ -49,15 +51,17 @@ html {
       color: #333;
     }
 
-    /* Überschriften */
+    /* Styling für alle Überschriften */
     .colorful-title {
-      font-family: 'Peace Sans', sans-serif;
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #fdda24;
-      text-shadow: 2px 2px 0 #0033a0, 4px 4px 0 #d22d27;
-      text-align: center;
-      margin-bottom: 20px;
+      font-family: 'Peace Sans', sans-serif; /* Schriftart */
+      font-size: 2.5rem; /* Passe die Schriftgröße an */
+      font-weight: bold; /* Fettgedruckt */
+      color: #fdda24; /* Toy Story Gelb */
+      text-shadow: 
+        2px 2px 0 #0033a0, /* Blaue Schatten */
+        4px 4px 0 #d22d27; /* Rote Schatten */
+      text-align: center; /* Zentriert den Text */
+      margin-bottom: 20px; /* Abstand nach unten */
     }
   </style>
 </head>
@@ -73,16 +77,18 @@ html {
     </ul>
   </nav>
 
+  <!-- Neuer Bereich für den Text direkt unter den Tabs -->
   <div class="hero-text">
     <h1 class="title">Welcome to $ChillWoody</h1>
     <p class="subtitle"><strong>Just a chill Woody</strong></p>
-    <p class="subtitle"><strong>CA: </strong></p>
+    <p class="subtitle"> <strong>CA: </strong></p>
   </div>
 
   <header class="hero-section">
     <div class="hero-content">
+      <!-- Eingebettetes Video -->
       <video class="hero-video" autoplay muted loop>
-        <source src="https://cdn.discordapp.com/attachments/835763760772939796/1309614890721476719/videoplayback.webm" type="video/webm">
+        <source src="https://cdn.discordapp.com/attachments/835763760772939796/1309614890721476719/videoplayback.webm?ex=67423969&is=6740e7e9&hm=8f63bf485fb9579362041e67c38c4453864296341896cf2315f6e2f689d84378&" type="video/webm">
         Your browser does not support the video tag.
       </video>
     </div>
@@ -97,17 +103,17 @@ html {
     </section>
 
     <section id="tokenomics" class="tokenomics-container">
-      <div class="tokenomics-section">
-        <h2 class="colorful-title">Tokenomics</h2>
-        <div class="tokenomics-box">
-          <img src="https://cdn.discordapp.com/attachments/835763760772939796/1309860074063138857/Woodywithcash_no_background.png" 
-            alt="Woody with cash" class="tokenomics-image">
-          <div class="tokenomics-text">
-            <p><strong>Total Supply: 1,000,000,000 $CHILLWOODY</strong></p>
-          </div>
-        </div>
+  <div class="tokenomics-section">
+    <h2 class="colorful-title">Tokenomics</h2>
+    <div class="tokenomics-box">
+      <img src="https://cdn.discordapp.com/attachments/835763760772939796/1309860074063138857/Woodywithcash_no_background.png?ex=67431dc1&is=6741cc41&hm=9d1d21bdd82f6fa8e90b9302c25db2db4e16f4a8429f56f77adcf1365a92a799&" 
+        alt="Woody with cash" class="tokenomics-image">
+      <div class="tokenomics-text">
+        <p><strong>Total Supply: 1,000,000,000 $CHILLWOODY</strong></p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <section id="memes" class="memes-section">
       <h2 class="colorful-title">Memes and GIFs</h2>
@@ -115,6 +121,23 @@ html {
         <img src="https://i.imgflip.com/8xb5dl.jpg" alt="Funny meme 1" class="meme-image">
         <img src="https://i.pinimg.com/736x/6e/60/c0/6e60c0f4960a44e1e0b13b6d3c838b30.jpg" alt="Funny meme 2" class="meme-image">
         <img src="https://i.pinimg.com/736x/78/bb/71/78bb71de028dded34afc8573152f4c63.jpg" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://preview.redd.it/crjlrpqtfsy21.jpg?width=640&crop=smart&auto=webp&s=a62519a1815dbda5d2a7c10f6aceb7fe20822941" class="meme-gif">
+        <img src="https://preview.redd.it/woody-has-no-chill-v0-w9af1xejcvvc1.jpeg?width=1080&crop=smart&auto=webp&s=2fe854e381fa8ef66c8a341a6a651a840950495d" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://media.makeameme.org/created/when-you-tell-59656e.jpg" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://i.redd.it/mvulv4rmg4j51.jpg" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://i.redd.it/ktlzq714rfd51.jpg" alt="Funny GIF 1" class="meme-gif"> 
+        <img src="https://preview.redd.it/wbc3tbw165t91.jpg?auto=webp&s=b1e6542cfd31973e116b4b620f51d00a949dfd40" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://i.imgflip.com/8xb5dl.jpg" alt="Funny meme 1" class="meme-image">
+        <img src="https://i.pinimg.com/736x/6e/60/c0/6e60c0f4960a44e1e0b13b6d3c838b30.jpg" alt="Funny meme 2" class="meme-image">
+        <img src="https://i.pinimg.com/736x/78/bb/71/78bb71de028dded34afc8573152f4c63.jpg" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://preview.redd.it/crjlrpqtfsy21.jpg?width=640&crop=smart&auto=webp&s=a62519a1815dbda5d2a7c10f6aceb7fe20822941" class="meme-gif">
+        <img src="https://preview.redd.it/woody-has-no-chill-v0-w9af1xejcvvc1.jpeg?width=1080&crop=smart&auto=webp&s=2fe854e381fa8ef66c8a341a6a651a840950495d" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://media.makeameme.org/created/when-you-tell-59656e.jpg" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://i.redd.it/mvulv4rmg4j51.jpg" alt="Funny GIF 1" class="meme-gif">
+        <img src="https://i.redd.it/ktlzq714rfd51.jpg" alt="Funny GIF 1" class="meme-gif"> 
+        <img src="https://preview.redd.it/wbc3tbw165t91.jpg?auto=webp&s=b1e6542cfd31973e116b4b620f51d00a949dfd40" alt="Funny GIF 1" class="meme-gif">
+        
+        <!-- Add more memes and GIFs here -->
       </div>
     </section>
 
