@@ -230,11 +230,6 @@ body {
   background-color: #F52828; /* Twitter blue */
 }
 
-.telegram-button:hover {
-  transform: scale(1.1);
-  background-color: #F52828; /* Telegram blue */
-}
-
 /* Footer */
 footer {
   background-color: #F5C927; 
